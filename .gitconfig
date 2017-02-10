@@ -1,0 +1,6 @@
+[color]
+	ui = true
+[core]
+	excludesfile = /Users/Guest/.gitignore_global
+[user]
+	name = Elizabeth Oliver

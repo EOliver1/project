@@ -1,0 +1,1139 @@
+te Entitlement Update ================================
+2.072 [I|13] ps.ths:handleEntitlementUpdate: Thumper Entitlement:Unknown - no change
+2.072 [I|13+] ps.ths:handleEntitlementUpdate: ================================ Evaluate Entitlement Update ================================
+2.072 [I|13] ps.ths:handleEntitlementUpdate: Thumper Entitlement:Unknown - no change
+2.072 [I] ids: [i] Initial set of devices: 0 devices
+2.072 [I] ids: [i] No bootstrap info, no need to update remote devices
+2.073 [I] ps.tdm: iCloud status event 'accounts daemon ready' with name ''
+2.073 [I] ps.tdm: iCloud status: not signed, known ID: ''
+2.073 [I] ps.ths:serviceRefresh: userAction:false, reprovisioning:false, service was up:false
+2.073 [I] ps.ths:serviceRefresh: 0 - reprovisioning:no  state:Disabled switchIsON:[1](Default) iCloud:signed-out calledID:[mismatch] accountState:[-1] paired:[0] preprovisioned:[0] serviceAllowed:[0] provisioned:[0] applied:[0]
+2.073 [I] ps.ths:serviceRefresh: 1 - reprovisioning:no  state:Disabled switchIsON:[1](Default) iCloud:signed-out calledID:[mismatch] accountState:[-1] paired:[0] preprovisioned:[0] serviceAllowed:[0] provisioned:[0] applied:[0]
+2.073 [I] ps.ths:isEnabled: Thumper user switch state is Default ('on'), activating: false; service status: Disabled; reprovisioining: false; isEnabled return 'false'
+2.073 [I] ps.ctl:fireEventAboutCapability: kCTEventCallCapabilitiesChanged.Thumper changed
+2.073 [I] ps.ctl:fireEventAboutCapability: kCTEventCallCapabilitiesChanged.Thumper notification sent, reason: update
+2.073 [I|4+] xpc.event:   --------------> kCTEventCallCapabilitiesChanged(92) sent to 1 (of 1) clients. Full Event: {
+	"kEvent": 92,
+	"kNotificationEvent": 92,
+	"kNotificationDict": {
+		"kCTCapabilityPhoneServices": {
+			"account-details": {
+				"account-list": [],
+				"thumper-calling-support": true,
+				"device-list": [],
+				"device-id": "52F8F1F3-3FF9-4714-A683-DA993F6D3008"
+			},
+			"kCTCapabilityCanSet": false,
+			"kCTCapabilityStatus": false
+		}
+	}
+}
+2.418 [I] xpc: New CTServerConnection from pid 342 (conn=0x7f807a740c50).
+2.418 [I] xpc:  -- connection has entitlements: supported=[spi,identity,phone,phone,data-usage,data-allowed,data-allowed-write,voice]
+2.418 [I] xpc.client: CCXpcServer(342[(pending)]:'(pending)'/0x7f807a740c50) request: kWhois. Full request: {
+	"kName": "callservicesd-CTTelephonyCenter",
+	"kRequest": "kWhois",
+	"kProgName": "callservicesd"
+}
+2.418 [I] xpc.client: CCXpcServer(342[(pending)]:'(pending)'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 172,
+	"kRequest": "kRegisterNotification"
+}
+2.418 [I] xpc.client: CCXpcServer(342[(pending)]:'(pending)'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 1,
+	"kRequest": "kRegisterNotification"
+}
+2.418 [I] xpc.client: CCXpcServer(342[(pending)]:'(pending)'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 3,
+	"kRequest": "kRegisterNotification"
+}
+2.418 [I] xpc.client: CCXpcServer(342[(pending)]:'(pending)'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 115,
+	"kRequest": "kRegisterNotification"
+}
+2.418 [I] xpc.client: CCXpcServer(342[(pending)]:'(pending)'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 4,
+	"kRequest": "kRegisterNotification"
+}
+2.418 [I] xpc: New CTServerConnection from pid 342 (conn=0x7f807a5359f0).
+2.418 [I] xpc.client: CCXpcServer(342[(pending)]:'(pending)'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 5,
+	"kRequest": "kRegisterNotification"
+}
+2.418 [I] xpc.client: CCXpcServer(342[(pending)]:'(pending)'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 7,
+	"kRequest": "kRegisterNotification"
+}
+2.418 [I|4+] xpc: CTServerConnection from pid 342[callservicesd] is named 'callservicesd-CTTelephonyCenter'.
+2.418 [I] xpc.client: CCXpcServer(342[(pending)]:'(pending)'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 6,
+	"kRequest": "kRegisterNotification"
+}
+2.418 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventRestrictedForegroundResume(172) (now total 1)
+2.418 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallStatus(1) (now total 2)
+2.418 [I] xpc.client: CCXpcServer(342[(pending)]:'(pending)'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 164,
+	"kRequest": "kRegisterNotification"
+}
+2.418 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallSubType(3) (now total 3)
+2.418 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventAlternateCallStatus(115) (now total 4)
+2.418 [I] xpc.client: CCXpcServer(342[(pending)]:'(pending)'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 165,
+	"kRequest": "kRegisterNotification"
+}
+2.418 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallIdentification(4) (now total 5)
+2.418 [I] xpc.client: CCXpcServer(342[(pending)]:'(pending)'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 166,
+	"kRequest": "kRegisterNotification"
+}
+2.418 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallForwarded(5) (now total 6)
+2.418 [I] xpc.client: CCXpcServer(342[(pending)]:'(pending)'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 122,
+	"kRequest": "kRegisterNotification"
+}
+2.418 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallCauseCode(7) (now total 7)
+2.418 [I] xpc.client: CCXpcServer(342[(pending)]:'(pending)'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 92,
+	"kRequest": "kRegisterNotification"
+}
+2.418 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallControlError(6) (now total 8)
+2.418 [I] xpc.client: CCXpcServer(342[(pending)]:'(pending)'/0x7f807a740c50) request: kCallModelGetProperty, expects reply. Full request: {
+	"kRequest": "kCallModelGetProperty",
+	"kCallManagementState": null
+}
+2.418 CopyIMSConfigValue: : Voice.E911OverITechSupported. = <CFBoolean 0x7fff75e0ce50 [0x7fff75e0c440]>{value = false}
+2.418 CopyIMSConfigValue: : Voice.E911OverIMSSupported. = <CFBoolean 0x7fff75e0ce50 [0x7fff75e0c440]>{value = false}
+2.418 [I] xpc.client: CCXpcServer(342[(pending)]:'(pending)'/0x7f807a740c50) reply to request 'kCallModelGetProperty'. Full reply: {
+	"kCTCallManagementIsSwappable": true,
+	"kCTCallManagementIsConferenceSideBarBlocked": true,
+	"kCTCallManagementIsEndAndAnswerAllowed": true,
+	"kCTCallManagementIsAmbiguousMultiParty": false,
+	"kCTCallManagementIsMergeable": false,
+	"kCTCallManagementIsPhoneServicesActive": false,
+	"kCTCallManagementMaxSupportedCallCount": 6,
+	"kCTCallManagementIsHardPauseSupported": true,
+	"kCTCallManagementMaxMultiPartyCallCount": 5,
+	"kCTCallManagementIsAmbiguousCallList": false,
+	"kCTCallManagementIsAddCallAllowed": true,
+	"kCTCallManagementIsHoldAllowed": true,
+	"kCTCallManagementEmergencyWifiCallCapable": false,
+	"kCTCallManagementExpectedCallSubType": "kCTCallSubTypeTelephony"
+}
+2.418 [I] xpc.client: CCXpcServer(342[callservicesd]:'(pending)'/0x7f807a5359f0) request: kWhois. Full request: {
+	"kName": "callservicesd",
+	"kRequest": "kWhois",
+	"kProgName": "callservicesd"
+}
+2.418 [I] xpc.client: CCXpcServer(342[callservicesd]:'(pending)'/0x7f807a5359f0) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+2.418 [I] xpc.client: CCXpcServer(342[callservicesd]:'(pending)'/0x7f807a5359f0) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "52F8F1F3-3FF9-4714-A683-DA993F6D3008"
+	}
+}
+2.420 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallInputFrequencyLevel(164) (now total 9)
+2.420 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallOutputFrequencyLevel(165) (now total 10)
+2.420 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventPullCallIsPossible(166) (now total 11)
+2.420 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallManagementStateChanged(122) (now total 12)
+2.420 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallCapabilitiesChanged(92) (now total 13)
+2.420 [I|4+] xpc: CTServerConnection from pid 342[callservicesd] is named 'callservicesd'.
+2.420 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kRegistrationGetProperty, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityWiFiCalling",
+	"kRequest": "kRegistrationGetProperty",
+	"kTelephonyCapabilityCanSet": null
+}
+2.420 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kRegistrationGetProperty'. Full reply: {}
+2.420 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kRegistrationGetProperty, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityVoLTE",
+	"kRequest": "kRegistrationGetProperty",
+	"kTelephonyCapabilityCanSet": null
+}
+2.420 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kRegistrationGetProperty'. Full reply: {}
+2.421 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kRegistrationGetProperty, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kRegistrationGetProperty",
+	"kTelephonyCapabilityCanSet": null
+}
+2.421 [I] reg: PhoneServices CanSet = false with [<CFBasicHash 0x7f807a729950 [0x7fff75e0c440]>{type = mutable dict, count = 3,
+entries =>
+	0 : <CFString 0x107d74ed8 [0x7fff75e0c440]>{contents = "kCTCapabilityCanSet"} = <CFBoolean 0x7fff75e0ce50 [0x7fff75e0c440]>{value = false}
+	1 : <CFString 0x107d74ef8 [0x7fff75e0c440]>{contents = "kCTCapabilityStatus"} = <CFBoolean 0x7fff75e0ce50 [0x7fff75e0c440]>{value = false}
+	2 : <CFString 0x107d75018 [0x7fff75e0c440]>{contents = "account-details"} = <CFBasicHash 0x7f807a7288f0 [0x7fff75e0c440]>{type = mutable dict, count = 4,
+entries =>
+	0 : <CFString 0x107d75118 [0x7fff75e0c440]>{contents = "thumper-calling-support"} = <CFBoolean 0x7fff75e0ce40 [0x7fff75e0c440]>{value = true}
+	2 : <CFString 0x107d75078 [0x7fff75e0c440]>{contents = "device-id"} = <CFString 0x7f807a61a4d0 [0x7fff75e0c440]>{contents = "52F8F1F3-3FF9-4714-A683-DA993F6D3008"}
+	5 : <CFString 0x107d75058 [0x7fff75e0c440]>{contents = "account-list"} = (
+)
+	6 : <CFString 0x107d75038 [0x7fff75e0c440]>{contents = "device-list"} = (
+)
+}
+
+}
+]
+2.421 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kRegistrationGetProperty'. Full reply: {
+	"kTelephonyCapabilityInformation": {
+		"account-details": {
+			"account-list": [],
+			"thumper-calling-support": true,
+			"device-list": [],
+			"device-id": "52F8F1F3-3FF9-4714-A683-DA993F6D3008"
+		},
+		"kCTCapabilityCanSet": false,
+		"kCTCapabilityStatus": false
+	},
+	"kTelephonyCapabilityCanSet": false
+}
+2.421 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+2.421 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "52F8F1F3-3FF9-4714-A683-DA993F6D3008"
+	}
+}
+2.423 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kPhoneServicesGetDeviceList, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceList"
+}
+2.423 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kPhoneServicesGetDeviceList'. Full reply: {
+	"kPhoneServicesGetDeviceList": {
+		"thumper-calling-support": true,
+		"device-list": [],
+		"device-id": "52F8F1F3-3FF9-4714-A683-DA993F6D3008"
+	}
+}
+2.423 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+2.423 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "52F8F1F3-3FF9-4714-A683-DA993F6D3008"
+	}
+}
+2.423 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kPhoneServicesGetDeviceList, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceList"
+}
+2.423 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kPhoneServicesGetDeviceList'. Full reply: {
+	"kPhoneServicesGetDeviceList": {
+		"thumper-calling-support": true,
+		"device-list": [],
+		"device-id": "52F8F1F3-3FF9-4714-A683-DA993F6D3008"
+	}
+}
+2.423 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+2.423 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "52F8F1F3-3FF9-4714-A683-DA993F6D3008"
+	}
+}
+2.423 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+2.423 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "52F8F1F3-3FF9-4714-A683-DA993F6D3008"
+	}
+}
+2.424 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+2.424 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "52F8F1F3-3FF9-4714-A683-DA993F6D3008"
+	}
+}
+2.424 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+2.424 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "52F8F1F3-3FF9-4714-A683-DA993F6D3008"
+	}
+}
+2.424 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+2.424 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "52F8F1F3-3FF9-4714-A683-DA993F6D3008"
+	}
+}
+2.427 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 1,
+	"kRequest": "kRegisterNotification"
+}
+2.427 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 115,
+	"kRequest": "kRegisterNotification"
+}
+2.427 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 4,
+	"kRequest": "kRegisterNotification"
+}
+2.427 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 3,
+	"kRequest": "kRegisterNotification"
+}
+2.427 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallStatus(1) (now total 14)
+2.427 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 6,
+	"kRequest": "kRegisterNotification"
+}
+2.427 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventAlternateCallStatus(115) (now total 15)
+2.427 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 111,
+	"kRequest": "kRegisterNotification"
+}
+2.427 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallIdentification(4) (now total 16)
+2.427 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallSubType(3) (now total 17)
+2.427 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 121,
+	"kRequest": "kRegisterNotification"
+}
+2.427 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallControlError(6) (now total 18)
+2.427 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventNewCarrier(111) (now total 19)
+2.427 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 95,
+	"kRequest": "kRegisterNotification"
+}
+2.427 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventEmergencyCallBackModeStatus(121) (now total 20)
+2.427 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 123,
+	"kRequest": "kRegisterNotification"
+}
+2.427 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallDropToneComplete(95) (now total 21)
+2.427 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventDTMFDigitsChanged(123) (now total 22)
+2.427 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 8,
+	"kRequest": "kRegisterNotification"
+}
+2.427 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 171,
+	"kRequest": "kRegisterNotification"
+}
+2.427 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 9,
+	"kRequest": "kRegisterNotification"
+}
+2.427 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallAudioToneRelay(8) (now total 23)
+2.427 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventSetupAudioInterruptionsChanged(171) (now total 24)
+2.427 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallMediaStatusActive(9) (now total 25)
+2.428 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 10,
+	"kRequest": "kRegisterNotification"
+}
+2.428 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 164,
+	"kRequest": "kRegisterNotification"
+}
+2.428 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 165,
+	"kRequest": "kRegisterNotification"
+}
+2.428 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallMediaStatusInactive(10) (now total 26)
+2.428 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallInputFrequencyLevel(164) (now total 27)
+2.428 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventCallOutputFrequencyLevel(165) (now total 28)
+2.428 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7f807a740c50) request: kCallGetDtmfToneProperty, expects reply. Full request: {
+	"kCallDtmfPauseDigits": null,
+	"kRequest": "kCallGetDtmfToneProperty"
+}
+2.428 [I] clm:  ## CTCopyDTMFHardPauseDigits
+2.428 [W|6+] call: No calls or more than one call, don't support DTMF
+2.428 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7f807a740c50) reply to request 'kCallGetDtmfToneProperty'. Full reply: {
+	"kCallDtmfPauseDigits": "",
+	"kCallDtmfPauseReadyToSend": false
+}
+2.434 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7f807a740c50) request: kCallModelGetAllCallInfo, expects reply. Full request: {
+	"kRequest": "kCallModelGetAllCallInfo",
+	"kCallTypes": 3
+}
+2.434 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7f807a740c50) reply to request 'kCallModelGetAllCallInfo'. Full reply: {
+	"kCallArray": []
+}
+2.437 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd-CTTelephonyCenter'/0x7f807a740c50) request: kRegisterNotification. Full request: {
+	"kEvent": 166,
+	"kRequest": "kRegisterNotification"
+}
+2.437 [I|4+] xpc:   ==== client 342 (callservicesd-CTTelephonyCenter) registered for event kCTEventPullCallIsPossible(166) (now total 29)
+2.517 [I] csiapp.info: Application exited: AppInfo[sharingd, , false, 363, 0]
+2.632 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+2.632 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "52F8F1F3-3FF9-4714-A683-DA993F6D3008"
+	}
+}
+2.632 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kRegistrationGetProperty, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityWiFiCalling",
+	"kRequest": "kRegistrationGetProperty",
+	"kTelephonyCapabilityCanSet": null
+}
+2.632 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kRegistrationGetProperty'. Full reply: {}
+2.632 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kRegistrationGetProperty, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityVoLTE",
+	"kRequest": "kRegistrationGetProperty",
+	"kTelephonyCapabilityCanSet": null
+}
+2.632 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kRegistrationGetProperty'. Full reply: {}
+2.635 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kRegistrationGetProperty, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kRegistrationGetProperty",
+	"kTelephonyCapabilityCanSet": null
+}
+2.635 [I] reg: PhoneServices CanSet = false with [<CFBasicHash 0x7f807a729950 [0x7fff75e0c440]>{type = mutable dict, count = 3,
+entries =>
+	0 : <CFString 0x107d74ed8 [0x7fff75e0c440]>{contents = "kCTCapabilityCanSet"} = <CFBoolean 0x7fff75e0ce50 [0x7fff75e0c440]>{value = false}
+	1 : <CFString 0x107d74ef8 [0x7fff75e0c440]>{contents = "kCTCapabilityStatus"} = <CFBoolean 0x7fff75e0ce50 [0x7fff75e0c440]>{value = false}
+	2 : <CFString 0x107d75018 [0x7fff75e0c440]>{contents = "account-details"} = <CFBasicHash 0x7f807a7288f0 [0x7fff75e0c440]>{type = mutable dict, count = 4,
+entries =>
+	0 : <CFString 0x107d75118 [0x7fff75e0c440]>{contents = "thumper-calling-support"} = <CFBoolean 0x7fff75e0ce40 [0x7fff75e0c440]>{value = true}
+	2 : <CFString 0x107d75078 [0x7fff75e0c440]>{contents = "device-id"} = <CFString 0x7f807a61a4d0 [0x7fff75e0c440]>{contents = "52F8F1F3-3FF9-4714-A683-DA993F6D3008"}
+	5 : <CFString 0x107d75058 [0x7fff75e0c440]>{contents = "account-list"} = (
+)
+	6 : <CFString 0x107d75038 [0x7fff75e0c440]>{contents = "device-list"} = (
+)
+}
+
+}
+]
+2.635 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kRegistrationGetProperty'. Full reply: {
+	"kTelephonyCapabilityInformation": {
+		"account-details": {
+			"account-list": [],
+			"thumper-calling-support": true,
+			"device-list": [],
+			"device-id": "52F8F1F3-3FF9-4714-A683-DA993F6D3008"
+		},
+		"kCTCapabilityCanSet": false,
+		"kCTCapabilityStatus": false
+	},
+	"kTelephonyCapabilityCanSet": false
+}
+2.635 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+2.635 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "52F8F1F3-3FF9-4714-A683-DA993F6D3008"
+	}
+}
+2.635 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kPhoneServicesGetDeviceList, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceList"
+}
+2.635 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kPhoneServicesGetDeviceList'. Full reply: {
+	"kPhoneServicesGetDeviceList": {
+		"thumper-calling-support": true,
+		"device-list": [],
+		"device-id": "52F8F1F3-3FF9-4714-A683-DA993F6D3008"
+	}
+}
+2.636 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+2.636 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "52F8F1F3-3FF9-4714-A683-DA993F6D3008"
+	}
+}
+2.636 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kPhoneServicesGetDeviceList, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceList"
+}
+2.636 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kPhoneServicesGetDeviceList'. Full reply: {
+	"kPhoneServicesGetDeviceList": {
+		"thumper-calling-support": true,
+		"device-list": [],
+		"device-id": "52F8F1F3-3FF9-4714-A683-DA993F6D3008"
+	}
+}
+2.636 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+2.636 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "52F8F1F3-3FF9-4714-A683-DA993F6D3008"
+	}
+}
+2.636 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+2.636 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "52F8F1F3-3FF9-4714-A683-DA993F6D3008"
+	}
+}
+2.636 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+2.636 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "52F8F1F3-3FF9-4714-A683-DA993F6D3008"
+	}
+}
+2.636 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+2.636 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "52F8F1F3-3FF9-4714-A683-DA993F6D3008"
+	}
+}
+2.636 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) request: kPhoneServicesGetDeviceInfo, expects reply. Full request: {
+	"kTelephonyCapability": "kCTCapabilityPhoneServices",
+	"kRequest": "kPhoneServicesGetDeviceInfo"
+}
+2.636 [I] xpc.client: CCXpcServer(342[callservicesd]:'callservicesd'/0x7f807a5359f0) reply to request 'kPhoneServicesGetDeviceInfo'. Full reply: {
+	"kPhoneServicesGetDeviceInfo": {
+		"account-list": [],
+		"thumper-calling-support": true,
+		"device-id": "52F8F1F3-3FF9-4714-A683-DA993F6D3008"
+	}
+}
+3.646 [I] csiapp.info: Application launched: AppInfo[activateSettings, , true, 381, 0]
+4.401 [I] csiapp.info: Application exited: AppInfo[activateSettings, , false, 381, 0]
+9.773 [I] csiapp.info: Application launched: AppInfo[AppleSpell.service, com.apple.applespell, true, 438, 0]
+10.423 [I] csiapp.info: Application exited: AppInfo[SecurityAgent, com.apple.securityagent, false, 292, 0]
+11.573 [I] csiapp.info: Application exited: AppInfo[AppleSpell, com.apple.applespell, false, 439, 0]
+12.954 [I] csiapp.info: Application exited: AppInfo[Google Software Update, com.google.keystone.agent, false, 397, 0]
+15.408 [I] xpc.watchdog: Callback Watchdog: checkin
+15.408 [I] xpc: New CTServerConnection from pid 324 (conn=0x7f807a735300).
+15.408 [I] xpc:  -- connection has entitlements: supported=[spi,sim-authentication,identity]
+15.408 [I] xpc.watchdog: Server Watchdog: checkin
+16.219 [I] csiapp.info: Application exited: AppInfo[AOSHeartbeat, com.apple.aosheartbeat, false, 408, 0]
+17.324 [I] csiapp.info: Application launched: AppInfo[Google Chrome, com.google.chrome, true, 448, 0]
+17.791 [I] csiapp.info: Application exited: AppInfo[AppleSpell, com.apple.applespell, false, 454, 0]
+19.185 [I] csiapp.info: Application exited: AppInfo[talagent, com.apple.talagent, false, 369, 0]
+25.059 [I] csiapp.info: Application exited: AppInfo[TMHelperAgent, com.apple.tmhelperagent, false, 474, 0]
+26.176 [I] csiapp.info: Application exited: AppInfo[Calendar, com.apple.ical.calendarnc, false, 435, 0]
+26.255 [I] csiapp.info: Application exited: AppInfo[Reminders, com.apple.remindersnc, false, 434, 0]
+26.271 [I] csiapp.info: Application exited: AppInfo[Weather, com.apple.ncplugin.weather, false, 433, 0]
+26.511 [I] csiapp.info: Application exited: AppInfo[Stocks, com.apple.ncplugin.stocks, false, 436, 0]
+30.336 [I] xpc.watchdog: Callback Watchdog: checkin
+30.336 [I] xpc.watchdog: Server Watchdog: checkin
+33.397 [I] csiapp.info: Application exited: AppInfo[Google Chrome Helper, com.google.chrome.helper, false, 460, 0]
+33.420 [I] csiapp.info: Application exited: AppInfo[Google Chrome Helper, com.google.chrome.helper, false, 459, 0]
+33.465 [I] csiapp.info: Application exited: AppInfo[Google Chrome Helper, com.google.chrome.helper, false, 463, 0]
+33.492 [I] csiapp.info: Application exited: AppInfo[Google Chrome Helper, com.google.chrome.helper, false, 461, 0]
+34.822 [I] csiapp.info: Application exited: AppInfo[universalaccessd, , false, 322, 0]
+36.901 [I] csiapp.info: Application exited: AppInfo[Google Chrome Helper, com.google.chrome.helper, false, 465, 0]
+45.336 [I] xpc.watchdog: Callback Watchdog: checkin
+45.336 [I] xpc.watchdog: Server Watchdog: checkin
+46.044 [I] csiapp.info: Application exited: AppInfo[Google Chrome Helper, com.google.chrome.helper, false, 467, 0]
+60.342 [I] xpc.watchdog: Callback Watchdog: checkin
+60.342 [I] xpc.watchdog: Server Watchdog: checkin
+62.576 [I] csiapp.info: Application exited: AppInfo[Google Chrome Helper, com.google.chrome.helper, false, 498, 0]
+75.336 [I] xpc.watchdog: Callback Watchdog: checkin
+75.336 [I] xpc.watchdog: Server Watchdog: checkin
+80.280 [I] csiapp.info: Application exited: AppInfo[Google Chrome Helper, com.google.chrome.helper, false, 503, 0]
+90.337 [I] xpc.watchdog: Callback Watchdog: checkin
+90.337 [I] xpc.watchdog: Server Watchdog: checkin
+105.340 [I] xpc.watchdog: Callback Watchdog: checkin
+105.340 [I] xpc.watchdog: Server Watchdog: checkin
+120.363 [I] xpc.watchdog: Callback Watchdog: checkin
+120.363 [I] xpc.watchdog: Server Watchdog: checkin
+135.407 [I] xpc.watchdog: Callback Watchdog: checkin
+135.407 [I] xpc.watchdog: Server Watchdog: checkin
+150.335 [I] xpc.watchdog: Callback Watchdog: checkin
+150.335 [I] xpc.watchdog: Server Watchdog: checkin
+165.398 [I] xpc.watchdog: Callback Watchdog: checkin
+165.398 [I] xpc.watchdog: Server Watchdog: checkin
+180.349 [I] xpc.watchdog: Callback Watchdog: checkin
+180.349 [I] xpc.watchdog: Server Watchdog: checkin
+195.337 [I] xpc.watchdog: Callback Watchdog: checkin
+195.337 [I] xpc.watchdog: Server Watchdog: checkin
+210.342 [I] xpc.watchdog: Callback Watchdog: checkin
+210.342 [I] xpc.watchdog: Server Watchdog: checkin
+225.339 [I] xpc.watchdog: Callback Watchdog: checkin
+225.339 [I] xpc.watchdog: Server Watchdog: checkin
+228.363 [I] csiapp.info: Application exited: AppInfo[TMHelperAgent, com.apple.tmhelperagent, false, 524, 0]
+240.334 [I] xpc.watchdog: Callback Watchdog: checkin
+240.334 [I] xpc.watchdog: Server Watchdog: checkin
+255.404 [I] xpc.watchdog: Callback Watchdog: checkin
+255.405 [I] xpc.watchdog: Server Watchdog: checkin
+270.344 [I] xpc.watchdog: Callback Watchdog: checkin
+270.344 [I] xpc.watchdog: Server Watchdog: checkin
+285.349 [I] xpc.watchdog: Callback Watchdog: checkin
+285.349 [I] xpc.watchdog: Server Watchdog: checkin
+300.337 [I] xpc.watchdog: Callback Watchdog: checkin
+300.337 [I] xpc.watchdog: Server Watchdog: checkin
+315.404 [I] xpc.watchdog: Callback Watchdog: checkin
+315.405 [I] xpc.watchdog: Server Watchdog: checkin
+330.347 [I] xpc.watchdog: Callback Watchdog: checkin
+330.347 [I] xpc.watchdog: Server Watchdog: checkin
+345.335 [I] xpc.watchdog: Callback Watchdog: checkin
+345.335 [I] xpc.watchdog: Server Watchdog: checkin
+360.402 [I] xpc.watchdog: Callback Watchdog: checkin
+360.402 [I] xpc.watchdog: Server Watchdog: checkin
+375.404 [I] xpc.watchdog: Callback Watchdog: checkin
+375.405 [I] xpc.watchdog: Server Watchdog: checkin
+390.352 [I] xpc.watchdog: Callback Watchdog: checkin
+390.352 [I] xpc.watchdog: Server Watchdog: checkin
+405.337 [I] xpc.watchdog: Callback Watchdog: checkin
+405.337 [I] xpc.watchdog: Server Watchdog: checkin
+420.342 [I] xpc.watchdog: Callback Watchdog: checkin
+420.342 [I] xpc.watchdog: Server Watchdog: checkin
+435.404 [I] xpc.watchdog: Callback Watchdog: checkin
+435.405 [I] xpc.watchdog: Server Watchdog: checkin
+450.335 [I] xpc.watchdog: Callback Watchdog: checkin
+450.335 [I] xpc.watchdog: Server Watchdog: checkin
+465.340 [I] xpc.watchdog: Callback Watchdog: checkin
+465.340 [I] xpc.watchdog: Server Watchdog: checkin
+480.344 [I] xpc.watchdog: Callback Watchdog: checkin
+480.345 [I] xpc.watchdog: Server Watchdog: checkin
+495.333 [I] xpc.watchdog: Callback Watchdog: checkin
+495.333 [I] xpc.watchdog: Server Watchdog: checkin
+510.337 [I] xpc.watchdog: Callback Watchdog: checkin
+510.337 [I] xpc.watchdog: Server Watchdog: checkin
+525.342 [I] xpc.watchdog: Callback Watchdog: checkin
+525.342 [I] xpc.watchdog: Server Watchdog: checkin
+540.342 [I] xpc.watchdog: Callback Watchdog: checkin
+540.342 [I] xpc.watchdog: Server Watchdog: checkin
+555.335 [I] xpc.watchdog: Callback Watchdog: checkin
+555.335 [I] xpc.watchdog: Server Watchdog: checkin
+570.380 [I] xpc.watchdog: Callback Watchdog: checkin
+570.380 [I] xpc.watchdog: Server Watchdog: checkin
+585.345 [I] xpc.watchdog: Callback Watchdog: checkin
+585.345 [I] xpc.watchdog: Server Watchdog: checkin
+600.359 [I] xpc.watchdog: Callback Watchdog: checkin
+600.359 [I] xpc.watchdog: Server Watchdog: checkin
+615.338 [I] xpc.watchdog: Callback Watchdog: checkin
+615.338 [I] xpc.watchdog: Server Watchdog: checkin
+630.342 [I] xpc.watchdog: Callback Watchdog: checkin
+630.342 [I] xpc.watchdog: Server Watchdog: checkin
+645.391 [I] xpc.watchdog: Callback Watchdog: checkin
+645.391 [I] xpc.watchdog: Server Watchdog: checkin
+660.393 [I] xpc.watchdog: Server Watchdog: checkin
+660.393 [I] xpc.watchdog: Callback Watchdog: checkin
+675.404 [I] xpc.watchdog: Callback Watchdog: checkin
+675.404 [I] xpc.watchdog: Server Watchdog: checkin
+690.342 [I] xpc.watchdog: Callback Watchdog: checkin
+690.342 [I] xpc.watchdog: Server Watchdog: checkin
+705.397 [I] xpc.watchdog: Callback Watchdog: checkin
+705.397 [I] xpc.watchdog: Server Watchdog: checkin
+720.338 [I] xpc.watchdog: Callback Watchdog: checkin
+720.338 [I] xpc.watchdog: Server Watchdog: checkin
+735.343 [I] xpc.watchdog: Callback Watchdog: checkin
+735.343 [I] xpc.watchdog: Server Watchdog: checkin
+750.331 [I] xpc.watchdog: Callback Watchdog: checkin
+750.331 [I] xpc.watchdog: Server Watchdog: checkin
+765.383 [I] xpc.watchdog: Callback Watchdog: checkin
+765.383 [I] xpc.watchdog: Server Watchdog: checkin
+780.340 [I] xpc.watchdog: Callback Watchdog: checkin
+780.340 [I] xpc.watchdog: Server Watchdog: checkin
+795.345 [I] xpc.watchdog: Callback Watchdog: checkin
+795.345 [I] xpc.watchdog: Server Watchdog: checkin
+810.349 [I] xpc.watchdog: Callback Watchdog: checkin
+810.349 [I] xpc.watchdog: Server Watchdog: checkin
+812.812 [I] csiapp.info: Application launched: AppInfo[Terminal, com.apple.terminal, true, 530, 0]
+825.329 [I] xpc.watchdog: Callback Watchdog: checkin
+825.329 [I] xpc.watchdog: Server Watchdog: checkin
+840.360 [I] xpc.watchdog: Callback Watchdog: checkin
+840.360 [I] xpc.watchdog: Server Watchdog: checkin
+855.364 [I] xpc.watchdog: Callback Watchdog: checkin
+855.365 [I] xpc.watchdog: Server Watchdog: checkin
+870.328 [I] xpc.watchdog: Callback Watchdog: checkin
+870.328 [I] xpc.watchdog: Server Watchdog: checkin
+885.392 [I] xpc.watchdog: Callback Watchdog: checkin
+885.393 [I] xpc.watchdog: Server Watchdog: checkin
+900.329 [I] xpc.watchdog: Callback Watchdog: checkin
+900.329 [I] xpc.watchdog: Server Watchdog: checkin
+915.328 [I] xpc.watchdog: Callback Watchdog: checkin
+915.328 [I] xpc.watchdog: Server Watchdog: checkin
+930.339 [I] xpc.watchdog: Callback Watchdog: checkin
+930.339 [I] xpc.watchdog: Server Watchdog: checkin
+945.338 [I] xpc.watchdog: Callback Watchdog: checkin
+945.338 [I] xpc.watchdog: Server Watchdog: checkin
+960.348 [I] xpc.watchdog: Callback Watchdog: checkin
+960.348 [I] xpc.watchdog: Server Watchdog: checkin
+975.356 [I] xpc.watchdog: Callback Watchdog: checkin
+975.356 [I] xpc.watchdog: Server Watchdog: checkin
+990.372 [I] xpc.watchdog: Callback Watchdog: checkin
+990.372 [I] xpc.watchdog: Server Watchdog: checkin
+1005.387 [I] xpc.watchdog: Callback Watchdog: checkin
+1005.387 [I] xpc.watchdog: Server Watchdog: checkin
+1020.401 [I] xpc.watchdog: Callback Watchdog: checkin
+1020.401 [I] xpc.watchdog: Server Watchdog: checkin
+1035.334 [I] xpc.watchdog: Callback Watchdog: checkin
+1035.334 [I] xpc.watchdog: Server Watchdog: checkin
+1050.334 [I] xpc.watchdog: Callback Watchdog: checkin
+1050.334 [I] xpc.watchdog: Server Watchdog: checkin
+1065.332 [I] xpc.watchdog: Callback Watchdog: checkin
+1065.332 [I] xpc.watchdog: Server Watchdog: checkin
+1080.336 [I] xpc.watchdog: Callback Watchdog: checkin
+1080.336 [I] xpc.watchdog: Server Watchdog: checkin
+1095.341 [I] xpc.watchdog: Callback Watchdog: checkin
+1095.341 [I] xpc.watchdog: Server Watchdog: checkin
+1110.326 [I] xpc.watchdog: Callback Watchdog: checkin
+1110.326 [I] xpc.watchdog: Server Watchdog: checkin
+1117.520 [I] csiapp.info: Application launched: AppInfo[Atom, com.github.atom, true, 548, 0]
+1121.869 [I] csiapp.info: Application exited: AppInfo[apm, , false, 575, 0]
+1122.054 [I] csiapp.info: Application exited: AppInfo[apm, , false, 574, 0]
+1125.326 [I] xpc.watchdog: Callback Watchdog: checkin
+1125.326 [I] xpc.watchdog: Server Watchdog: checkin
+1128.990 [I] csiapp.info: Application exited: AppInfo[Atom Helper, com.github.atom.helper, false, 553, 0]
+1140.325 [I] xpc.watchdog: Callback Watchdog: checkin
+1140.326 [I] xpc.watchdog: Server Watchdog: checkin
+1143.560 [I] csiapp.info: Application launched: AppInfo[Atom, com.github.atom, true, 583, 0]
+1143.924 [I] csiapp.info: Application exited: AppInfo[Atom, com.github.atom, false, 583, 0]
+1144.990 [I] csiapp.info: Application exited: AppInfo[apm, , false, 597, 0]
+1145.168 [I] csiapp.info: Application exited: AppInfo[apm, , false, 601, 0]
+1155.325 [I] xpc.watchdog: Callback Watchdog: checkin
+1155.325 [I] xpc.watchdog: Server Watchdog: checkin
+1170.333 [I] xpc.watchdog: Callback Watchdog: checkin
+1170.333 [I] xpc.watchdog: Server Watchdog: checkin
+1185.369 [I] xpc.watchdog: Callback Watchdog: checkin
+1185.369 [I] xpc.watchdog: Server Watchdog: checkin
+1191.684 [I] csiapp.info: Application exited: AppInfo[Google Chrome Helper, com.google.chrome.helper, false, 606, 0]
+1193.428 [I] csiapp.info: Application exited: AppInfo[Google Chrome Helper, com.google.chrome.helper, false, 605, 0]
+1200.341 [I] xpc.watchdog: Callback Watchdog: checkin
+1200.342 [I] xpc.watchdog: Server Watchdog: checkin
+1215.371 [I] xpc.watchdog: Callback Watchdog: checkin
+1215.371 [I] xpc.watchdog: Server Watchdog: checkin
+1230.334 [I] xpc.watchdog: Callback Watchdog: checkin
+1230.334 [I] xpc.watchdog: Server Watchdog: checkin
+1238.309 [I] csiapp.info: Application exited: AppInfo[Google Chrome Helper, com.google.chrome.helper, false, 604, 0]
+1245.399 [I] xpc.watchdog: Callback Watchdog: checkin
+1245.400 [I] xpc.watchdog: Server Watchdog: checkin
+1260.327 [I] xpc.watchdog: Callback Watchdog: checkin
+1260.327 [I] xpc.watchdog: Server Watchdog: checkin
+1275.347 [I] xpc.watchdog: Callback Watchdog: checkin
+1275.347 [I] xpc.watchdog: Server Watchdog: checkin
+1290.325 [I] xpc.watchdog: Callback Watchdog: checkin
+1290.325 [I] xpc.watchdog: Server Watchdog: checkin
+1305.325 [I] xpc.watchdog: Callback Watchdog: checkin
+1305.325 [I] xpc.watchdog: Server Watchdog: checkin
+1320.330 [I] xpc.watchdog: Callback Watchdog: checkin
+1320.330 [I] xpc.watchdog: Server Watchdog: checkin
+1335.335 [I] xpc.watchdog: Callback Watchdog: checkin
+1335.335 [I] xpc.watchdog: Server Watchdog: checkin
+1350.340 [I] xpc.watchdog: Callback Watchdog: checkin
+1350.340 [I] xpc.watchdog: Server Watchdog: checkin
+1365.328 [I] xpc.watchdog: Callback Watchdog: checkin
+1365.328 [I] xpc.watchdog: Server Watchdog: checkin
+1380.373 [I] xpc.watchdog: Callback Watchdog: checkin
+1380.373 [I] xpc.watchdog: Server Watchdog: checkin
+1395.323 [I] xpc.watchdog: Callback Watchdog: checkin
+1395.323 [I] xpc.watchdog: Server Watchdog: checkin
+1410.323 [I] xpc.watchdog: Callback Watchdog: checkin
+1410.323 [I] xpc.watchdog: Server Watchdog: checkin
+1425.330 [I] xpc.watchdog: Callback Watchdog: checkin
+1425.330 [I] xpc.watchdog: Server Watchdog: checkin
+1440.335 [I] xpc.watchdog: Callback Watchdog: checkin
+1440.335 [I] xpc.watchdog: Server Watchdog: checkin
+1455.324 [I] xpc.watchdog: Callback Watchdog: checkin
+1455.324 [I] xpc.watchdog: Server Watchdog: checkin
+1470.339 [I] xpc.watchdog: Callback Watchdog: checkin
+1470.339 [I] xpc.watchdog: Server Watchdog: checkin
+1485.353 [I] xpc.watchdog: Callback Watchdog: checkin
+1485.353 [I] xpc.watchdog: Server Watchdog: checkin
+1500.335 [I] xpc.watchdog: Callback Watchdog: checkin
+1500.335 [I] xpc.watchdog: Server Watchdog: checkin
+1512.538 [I] csiapp.info: Application exited: AppInfo[Google Chrome Helper, com.google.chrome.helper, false, 615, 0]
+1515.293 [I] csiapp.info: Application exited: AppInfo[Google Chrome Helper, com.google.chrome.helper, false, 616, 0]
+1515.374 [I] xpc.watchdog: Callback Watchdog: checkin
+1515.374 [I] xpc.watchdog: Server Watchdog: checkin
+1530.338 [I] xpc.watchdog: Callback Watchdog: checkin
+1530.338 [I] xpc.watchdog: Server Watchdog: checkin
+1535.400 [I] csiapp.info: Application exited: AppInfo[Google Chrome Helper, com.google.chrome.helper, false, 618, 0]
+1539.325 [I] csiapp.info: Application exited: AppInfo[Google Chrome Helper, com.google.chrome.helper, false, 617, 0]
+1545.363 [I] xpc.watchdog: Callback Watchdog: checkin
+1545.363 [I] xpc.watchdog: Server Watchdog: checkin
+1547.767 [I] csiapp.info: Application exited: AppInfo[Google Chrome Helper, com.google.chrome.helper, false, 619, 0]
+1557.223 [I] csiapp.info: Application exited: AppInfo[Google Chrome Helper, com.google.chrome.helper, false, 614, 0]
+1560.323 [I] xpc.watchdog: Callback Watchdog: checkin
+1560.324 [I] xpc.watchdog: Server Watchdog: checkin
+1575.390 [I] xpc.watchdog: Callback Watchdog: checkin
+1575.390 [I] xpc.watchdog: Server Watchdog: checkin
+1590.321 [I] xpc.watchdog: Callback Watchdog: checkin
+1590.321 [I] xpc.watchdog: Server Watchdog: checkin
+1605.321 [I] xpc.watchdog: Callback Watchdog: checkin
+1605.321 [I] xpc.watchdog: Server Watchdog: checkin
+1620.326 [I] xpc.watchdog: Callback Watchdog: checkin
+1620.326 [I] xpc.watchdog: Server Watchdog: checkin
+1635.321 [I] xpc.watchdog: Callback Watchdog: checkin
+1635.321 [I] xpc.watchdog: Server Watchdog: checkin
+1650.321 [I] xpc.watchdog: Callback Watchdog: checkin
+1650.321 [I] xpc.watchdog: Server Watchdog: checkin
+1665.354 [I] xpc.watchdog: Callback Watchdog: checkin
+1665.355 [I] xpc.watchdog: Server Watchdog: checkin
+1680.368 [I] xpc.watchdog: Callback Watchdog: checkin
+1680.368 [I] xpc.watchdog: Server Watchdog: checkin
+1695.374 [I] xpc.watchdog: Callback Watchdog: checkin
+1695.374 [I] xpc.watchdog: Server Watchdog: checkin
+1710.395 [I] xpc.watchdog: Callback Watchdog: checkin
+1710.395 [I] xpc.watchdog: Server Watchdog: checkin
+1725.358 [I] xpc.watchdog: Callback Watchdog: checkin
+1725.358 [I] xpc.watchdog: Server Watchdog: checkin
+1740.382 [I] xpc.watchdog: Callback Watchdog: checkin
+1740.382 [I] xpc.watchdog: Server Watchdog: checkin
+1755.389 [I] xpc.watchdog: Callback Watchdog: checkin
+1755.389 [I] xpc.watchdog: Server Watchdog: checkin
+1770.388 [I] xpc.watchdog: Callback Watchdog: checkin
+1770.389 [I] xpc.watchdog: Server Watchdog: checkin
+1785.319 [I] xpc.watchdog: Callback Watchdog: checkin
+1785.319 [I] xpc.watchdog: Server Watchdog: checkin
+1800.322 [I] xpc.watchdog: Callback Watchdog: checkin
+1800.322 [I] xpc.watchdog: Server Watchdog: checkin
+1815.330 [I] xpc.watchdog: Callback Watchdog: checkin
+1815.330 [I] xpc.watchdog: Server Watchdog: checkin
+1830.343 [I] xpc.watchdog: Callback Watchdog: checkin
+1830.343 [I] xpc.watchdog: Server Watchdog: checkin
+1845.382 [I] xpc.watchdog: Callback Watchdog: checkin
+1845.382 [I] xpc.watchdog: Server Watchdog: checkin
+1860.318 [I] xpc.watchdog: Callback Watchdog: checkin
+1860.318 [I] xpc.watchdog: Server Watchdog: checkin
+1875.318 [I] xpc.watchdog: Callback Watchdog: checkin
+1875.318 [I] xpc.watchdog: Server Watchdog: checkin
+1890.363 [I] xpc.watchdog: Callback Watchdog: checkin
+1890.363 [I] xpc.watchdog: Server Watchdog: checkin
+1905.375 [I] xpc.watchdog: Callback Watchdog: checkin
+1905.375 [I] xpc.watchdog: Server Watchdog: checkin
+1920.390 [I] xpc.watchdog: Callback Watchdog: checkin
+1920.390 [I] xpc.watchdog: Server Watchdog: checkin
+1935.385 [I] xpc.watchdog: Callback Watchdog: checkin
+1935.385 [I] xpc.watchdog: Server Watchdog: checkin
+1950.357 [I] xpc.watchdog: Callback Watchdog: checkin
+1950.357 [I] xpc.watchdog: Server Watchdog: checkin
+1965.317 [I] xpc.watchdog: Callback Watchdog: checkin
+1965.317 [I] xpc.watchdog: Server Watchdog: checkin
+1980.342 [I] xpc.watchdog: Callback Watchdog: checkin
+1980.342 [I] xpc.watchdog: Server Watchdog: checkin
+1995.390 [I] xpc.watchdog: Callback Watchdog: checkin
+1995.390 [I] xpc.watchdog: Server Watchdog: checkin
+2010.317 [I] xpc.watchdog: Callback Watchdog: checkin
+2010.317 [I] xpc.watchdog: Server Watchdog: checkin
+2025.378 [I] xpc.watchdog: Callback Watchdog: checkin
+2025.379 [I] xpc.watchdog: Server Watchdog: checkin
+2040.330 [I] xpc.watchdog: Callback Watchdog: checkin
+2040.330 [I] xpc.watchdog: Server Watchdog: checkin
+2055.331 [I] xpc.watchdog: Callback Watchdog: checkin
+2055.331 [I] xpc.watchdog: Server Watchdog: checkin
+2070.320 [I] xpc.watchdog: Callback Watchdog: checkin
+2070.320 [I] xpc.watchdog: Server Watchdog: checkin
+2085.316 [I] xpc.watchdog: Callback Watchdog: checkin
+2085.316 [I] xpc.watchdog: Server Watchdog: checkin
+2100.330 [I] xpc.watchdog: Callback Watchdog: checkin
+2100.330 [I] xpc.watchdog: Server Watchdog: checkin
+2115.318 [I] xpc.watchdog: Callback Watchdog: checkin
+2115.318 [I] xpc.watchdog: Server Watchdog: checkin
+2130.332 [I] xpc.watchdog: Callback Watchdog: checkin
+2130.332 [I] xpc.watchdog: Server Watchdog: checkin
+2145.344 [I] xpc.watchdog: Callback Watchdog: checkin
+2145.344 [I] xpc.watchdog: Server Watchdog: checkin
+2160.315 [I] xpc.watchdog: Callback Watchdog: checkin
+2160.316 [I] xpc.watchdog: Server Watchdog: checkin
+2175.368 [I] xpc.watchdog: Callback Watchdog: checkin
+2175.368 [I] xpc.watchdog: Server Watchdog: checkin
+2190.378 [I] xpc.watchdog: Callback Watchdog: checkin
+2190.378 [I] xpc.watchdog: Server Watchdog: checkin
+2205.332 [I] xpc.watchdog: Callback Watchdog: checkin
+2205.332 [I] xpc.watchdog: Server Watchdog: checkin
+2220.315 [I] xpc.watchdog: Callback Watchdog: checkin
+2220.315 [I] xpc.watchdog: Server Watchdog: checkin
+2235.323 [I] xpc.watchdog: Callback Watchdog: checkin
+2235.323 [I] xpc.watchdog: Server Watchdog: checkin
+2250.328 [I] xpc.watchdog: Callback Watchdog: checkin
+2250.328 [I] xpc.watchdog: Server Watchdog: checkin
+2265.316 [I] xpc.watchdog: Callback Watchdog: checkin
+2265.316 [I] xpc.watchdog: Server Watchdog: checkin
+2280.322 [I] xpc.watchdog: Callback Watchdog: checkin
+2280.322 [I] xpc.watchdog: Server Watchdog: checkin
+2295.389 [I] xpc.watchdog: Callback Watchdog: checkin
+2295.389 [I] xpc.watchdog: Server Watchdog: checkin
+2310.389 [I] xpc.watchdog: Callback Watchdog: checkin
+2310.389 [I] xpc.watchdog: Server Watchdog: checkin
+2325.316 [I] xpc.watchdog: Callback Watchdog: checkin
+2325.316 [I] xpc.watchdog: Server Watchdog: checkin
+2340.324 [I] xpc.watchdog: Callback Watchdog: checkin
+2340.324 [I] xpc.watchdog: Server Watchdog: checkin
+2355.314 [I] xpc.watchdog: Callback Watchdog: checkin
+2355.314 [I] xpc.watchdog: Server Watchdog: checkin
+2370.317 [I] xpc.watchdog: Callback Watchdog: checkin
+2370.317 [I] xpc.watchdog: Server Watchdog: checkin
+2385.338 [I] xpc.watchdog: Callback Watchdog: checkin
+2385.338 [I] xpc.watchdog: Server Watchdog: checkin
+2400.326 [I] xpc.watchdog: Callback Watchdog: checkin
+2400.326 [I] xpc.watchdog: Server Watchdog: checkin
+2415.337 [I] xpc.watchdog: Callback Watchdog: checkin
+2415.337 [I] xpc.watchdog: Server Watchdog: checkin
+2430.317 [I] xpc.watchdog: Callback Watchdog: checkin
+2430.317 [I] xpc.watchdog: Server Watchdog: checkin
+2445.335 [I] xpc.watchdog: Callback Watchdog: checkin
+2445.335 [I] xpc.watchdog: Server Watchdog: checkin
+2460.324 [I] xpc.watchdog: Callback Watchdog: checkin
+2460.324 [I] xpc.watchdog: Server Watchdog: checkin
+2475.324 [I] xpc.watchdog: Callback Watchdog: checkin
+2475.324 [I] xpc.watchdog: Server Watchdog: checkin
+2490.330 [I] xpc.watchdog: Callback Watchdog: checkin
+2490.330 [I] xpc.watchdog: Server Watchdog: checkin
+2505.320 [I] xpc.watchdog: Callback Watchdog: checkin
+2505.321 [I] xpc.watchdog: Server Watchdog: checkin
+2520.315 [I] xpc.watchdog: Callback Watchdog: checkin
+2520.315 [I] xpc.watchdog: Server Watchdog: checkin
+2535.312 [I] xpc.watchdog: Callback Watchdog: checkin
+2535.312 [I] xpc.watchdog: Server Watchdog: checkin
+2550.324 [I] xpc.watchdog: Callback Watchdog: checkin
+2550.324 [I] xpc.watchdog: Server Watchdog: checkin
+2565.312 [I] xpc.watchdog: Callback Watchdog: checkin
+2565.313 [I] xpc.watchdog: Server Watchdog: checkin
+2580.317 [I] xpc.watchdog: Callback Watchdog: checkin
+2580.317 [I] xpc.watchdog: Server Watchdog: checkin
+2595.311 [I] xpc.watchdog: Callback Watchdog: checkin
+2595.311 [I] xpc.watchdog: Server Watchdog: checkin
+2610.364 [I] xpc.watchdog: Callback Watchdog: checkin
+2610.364 [I] xpc.watchdog: Server Watchdog: checkin
+2625.315 [I] xpc.watchdog: Callback Watchdog: checkin
+2625.315 [I] xpc.watchdog: Server Watchdog: checkin
+2640.311 [I] xpc.watchdog: Callback Watchdog: checkin
+2640.311 [I] xpc.watchdog: Server Watchdog: checkin
+2655.377 [I] xpc.watchdog: Callback Watchdog: checkin
+2655.377 [I] xpc.watchdog: Server Watchdog: checkin
+2670.313 [I] xpc.watchdog: Callback Watchdog: checkin
+2670.313 [I] xpc.watchdog: Server Watchdog: checkin
+2685.362 [I] xpc.watchdog: Callback Watchdog: checkin
+2685.362 [I] xpc.watchdog: Server Watchdog: checkin
+2700.322 [I] xpc.watchdog: Callback Watchdog: checkin
+2700.322 [I] xpc.watchdog: Server Watchdog: checkin
+2715.310 [I] xpc.watchdog: Callback Watchdog: checkin
+2715.310 [I] xpc.watchdog: Server Watchdog: checkin
+2730.352 [I] xpc.watchdog: Callback Watchdog: checkin
+2730.352 [I] xpc.watchdog: Server Watchdog: checkin
+2745.320 [I] xpc.watchdog: Callback Watchdog: checkin
+2745.320 [I] xpc.watchdog: Server Watchdog: checkin
+2760.356 [I] xpc.watchdog: Callback Watchdog: checkin
+2760.356 [I] xpc.watchdog: Server Watchdog: checkin
+2775.313 [I] xpc.watchdog: Callback Watchdog: checkin
+2775.313 [I] xpc.watchdog: Server Watchdog: checkin
+2790.384 [I] xpc.watchdog: Callback Watchdog: checkin
+2790.384 [I] xpc.watchdog: Server Watchdog: checkin
+2805.323 [I] xpc.watchdog: Callback Watchdog: checkin
+2805.323 [I] xpc.watchdog: Server Watchdog: checkin
+2806.637 [I] csiapp.info: Application launched: AppInfo[Atom, com.github.atom, true, 649, 0]
+2806.993 [I] csiapp.info: Application exited: AppInfo[Atom, com.github.atom, false, 649, 0]
+2812.403 [I] csiapp.info: Application exited: AppInfo[apm, , false, 664, 0]
+2812.550 [I] csiapp.info: Application exited: AppInfo[apm, , false, 668, 0]
+2820.309 [I] xpc.watchdog: Callback Watchdog: checkin
+2820.309 [I] xpc.watchdog: Server Watchdog: checkin
+2835.309 [I] xpc.watchdog: Callback Watchdog: checkin
+2835.309 [I] xpc.watchdog: Server Watchdog: checkin
+2850.364 [I] xpc.watchdog: Callback Watchdog: checkin
+2850.364 [I] xpc.watchdog: Server Watchdog: checkin
+2865.309 [I] xpc.watchdog: Callback Watchdog: checkin
+2865.309 [I] xpc.watchdog: Server Watchdog: checkin
+2880.313 [I] xpc.watchdog: Callback Watchdog: checkin
+2880.313 [I] xpc.watchdog: Server Watchdog: checkin
+2895.338 [I] xpc.watchdog: Callback Watchdog: checkin
+2895.338 [I] xpc.watchdog: Server Watchdog: checkin
+2910.308 [I] xpc.watchdog: Callback Watchdog: checkin
+2910.308 [I] xpc.watchdog: Server Watchdog: checkin
+2925.311 [I] xpc.watchdog: Callback Watchdog: checkin
+2925.311 [I] xpc.watchdog: Server Watchdog: checkin
+2940.308 [I] xpc.watchdog: Callback Watchdog: checkin
+2940.308 [I] xpc.watchdog: Server Watchdog: checkin
+2955.308 [I] xpc.watchdog: Callback Watchdog: checkin
+2955.308 [I] xpc.watchdog: Server Watchdog: checkin
+2970.337 [I] xpc.watchdog: Callback Watchdog: checkin
+2970.337 [I] xpc.watchdog: Server Watchdog: checkin
+2985.347 [I] xpc.watchdog: Callback Watchdog: checkin
+2985.347 [I] xpc.watchdog: Server Watchdog: checkin
+3000.361 [I] xpc.watchdog: Callback Watchdog: checkin
+3000.361 [I] xpc.watchdog: Server Watchdog: checkin
+3015.307 [I] xpc.watchdog: Callback Watchdog: checkin
+3015.307 [I] xpc.watchdog: Server Watchdog: checkin
+3030.312 [I] xpc.watchdog: Callback Watchdog: checkin
+3030.312 [I] xpc.watchdog: Server Watchdog: checkin
+3045.316 [I] xpc.watchdog: Callback Watchdog: checkin
+3045.316 [I] xpc.watchdog: Server Watchdog: checkin
+3060.358 [I] xpc.watchdog: Callback Watchdog: checkin
+3060.358 [I] xpc.watchdog: Server Watchdog: checkin
+3075.382 [I] xpc.watchdog: Callback Watchdog: checkin
+3075.382 [I] xpc.watchdog: Server Watchdog: checkin
+3090.306 [I] xpc.watchdog: Callback Watchdog: checkin
+3090.307 [I] xpc.watchdog: Server Watchdog: checkin
+3105.306 [I] xpc.watchdog: Callback Watchdog: checkin
+3105.306 [I] xpc.watchdog: Server Watchdog: checkin
+3119.567 [I] csiapp.info: Application exited: AppInfo[Atom Helper, com.github.atom.helper, false, 654, 0]
+3120.309 [I] xpc.watchdog: Callback Watchdog: checkin
+3120.309 [I] xpc.watchdog: Server Watchdog: checkin
+3135.306 [I] xpc.watchdog: Callback Watchdog: checkin
+3135.306 [I] xpc.watchdog: Server Watchdog: checkin
+3140.155 [I] csiapp.info: Application exited: AppInfo[Atom Helper, com.github.atom.helper, false, 587, 0]
+3150.306 [I] xpc.watchdog: Callback Watchdog: checkin
+3150.306 [I] xpc.watchdog: Server Watchdog: checkin
+3165.306 [I] xpc.watchdog: Callback Watchdog: checkin
+3165.306 [I] xpc.watchdog: Server Watchdog: checkin
+3180.372 [I] xpc.watchdog: Callback Watchdog: checkin
+3180.372 [I] xpc.watchdog: Server Watchdog: checkin
+3195.305 [I] xpc.watchdog: Callback Watchdog: checkin
+3195.305 [I] xpc.watchdog: Server Watchdog: checkin
+3210.305 [I] xpc.watchdog: Callback Watchdog: checkin
+3210.305 [I] xpc.watchdog: Server Watchdog: checkin
+3225.379 [I] xpc.watchdog: Callback Watchdog: checkin
+3225.379 [I] xpc.watchdog: Server Watchdog: checkin
+3239.041 [I] csiapp.info: Application launched: AppInfo[Atom, com.github.atom, true, 695, 0]
+3239.380 [I] csiapp.info: Application exited: AppInfo[Atom, com.github.atom, false, 695, 0]
+3240.305 [I] xpc.watchdog: Callback Watchdog: checkin
+3240.305 [I] xpc.watchdog: Server Watchdog: checkin
+3244.589 [I] csiapp.info: Application exited: AppInfo[apm, , false, 714, 0]
+3244.736 [I] csiapp.info: Application exited: AppInfo[apm, , false, 716, 0]
+3255.305 [I] xpc.watchdog: Callback Watchdog: checkin
+3255.305 [I] xpc.watchdog: Server Watchdog: checkin
+3270.305 [I] xpc.watchdog: Callback Watchdog: checkin
+3270.305 [I] xpc.watchdog: Server Watchdog: checkin
+3285.377 [I] xpc.watchdog: Callback Watchdog: checkin
+3285.377 [I] xpc.watchdog: Server Watchdog: checkin
+3300.309 [I] xpc.watchdog: Callback Watchdog: checkin
+3300.309 [I] xpc.watchdog: Server Watchdog: checkin
+3306.940 [I] csiapp.info: Application exited: AppInfo[Google Chrome Helper, com.google.chrome.helper, false, 607, 0]
+3315.304 [I] xpc.watchdog: Callback Watchdog: checkin
+3315.304 [I] xpc.watchdog: Server Watchdog: checkin
+3320.141 [I] csiapp.info: Application exited: AppInfo[Google Chrome Helper, com.google.chrome.helper, false, 721, 0]
+3327.882 [I] csiapp.info: Application exited: AppInfo[Google Chrome Helper, com.google.chrome.helper, false, 720, 0]
+3330.304 [I] xpc.watchdog: Callback Watchdog: checkin
+3330.304 [I] xpc.watchdog: Server Watchdog: checkin
+3345.304 [I] xpc.watchdog: Callback Watchdog: checkin
+3345.304 [I] xpc.watchdog: Server Watchdog: checkin
+3360.351 [I] xpc.watchdog: Callback Watchdog: checkin
+3360.351 [I] xpc.watchdog: Server Watchdog: checkin
+3372.556 [I] csiapp.info: Application exited: AppInfo[Google Chrome Helper, com.google.chrome.helper, false, 719, 0]
+3375.372 [I] xpc.watchdog: Callback Watchdog: checkin
+3375.372 [I] xpc.watchdog: Server Watchdog: checkin
+3390.376 [I] xpc.watchdog: Callback Watchdog: checkin
+3390.376 [I] xpc.watchdog: Server Watchdog: checkin
+3405.373 [I] xpc.watchdog: Callback Watchdog: checkin
+3405.373 [I] xpc.watchdog: Server Watchdog: checkin
+3420.332 [I] xpc.watchdog: Callback Watchdog: checkin
+3420.332 [I] xpc.watchdog: Server Watchdog: checkin
+3435.373 [I] xpc.watchdog: Callback Watchdog: checkin
+3435.373 [I] xpc.watchdog: Server Watchdog: checkin
+3450.313 [I] xpc.watchdog: Callback Watchdog: checkin
+3450.313 [I] xpc.watchdog: Server Watchdog: checkin
+3465.366 [I] xpc.watchdog: Callback Watchdog: checkin
+3465.366 [I] xpc.watchdog: Server Watchdog: checkin
+3480.373 [I] xpc.watchdog: Callback Watchdog: checkin
+3480.373 [I] xpc.watchdog: Server Watchdog: checkin
+3495.375 [I] xpc.watchdog: Callback Watchdog: checkin
+3495.375 [I] xpc.watchdog: Server Watchdog: checkin
+3510.323 [I] xpc.watchdog: Callback Watchdog: checkin
+3510.323 [I] xpc.watchdog: Server Watchdog: checkin
+3525.368 [I] xpc.watchdog: Callback Watchdog: checkin
+3525.368 [I] xpc.watchdog: Server Watchdog: checkin
+3540.307 [I] xpc.watchdog: Callback Watchdog: checkin
+3540.307 [I] xpc.watchdog: Server Watchdog: checkin
+3555.313 [I] xpc.watchdog: Callback Watchdog: checkin
+3555.313 [I] xpc.watchdog: Server Watchdog: checkin
+3570.318 [I] xpc.watchdog: Callback Watchdog: checkin
+3570.318 [I] xpc.watchdog: Server Watchdog: checkin
+3585.302 [I] xpc.watchdog: Callback Watchdog: checkin
+3585.302 [I] xpc.watchdog: Server Watchdog: checkin
+3600.302 [I] xpc.watchdog: Callback Watchdog: checkin
+3600.302 [I] xpc.watchdog: Server Watchdog: checkin
+3615.301 [I] xpc.watchdog: Callback Watchdog: checkin
+3615.301 [I] xpc.watchdog: Server Watchdog: checkin
+3630.301 [I] xpc.watchdog: Callback Watchdog: checkin
+3630.301 [I] xpc.watchdog: Server Watchdog: checkin
+3636.155 [I] csiapp.info: Application exited: AppInfo[Google Software Update, com.google.keystone.agent, false, 729, 0]
+3645.301 [I] xpc.watchdog: Callback Watchdog: checkin
+3645.301 [I] xpc.watchdog: Server Watchdog: checkin
+3660.314 [I] xpc.watchdog: Callback Watchdog: checkin
+3660.314 [I] xpc.watchdog: Server Watchdog: checkin
+3675.369 [I] xpc.watchdog: Callback Watchdog: checkin
+3675.369 [I] xpc.watchdog: Server Watchdog: checkin
+3690.307 [I] xpc.watchdog: Callback Watchdog: checkin
+3690.307 [I] xpc.watchdog: Server Watchdog: checkin
+3705.307 [I] xpc.watchdog: Callback Watchdog: checkin
+3705.307 [I] xpc.watchdog: Server Watchdog: checkin
+3720.316 [I] xpc.watchdog: Callback Watchdog: checkin
+3720.316 [I] xpc.watchdog: Server Watchdog: checkin
+3735.300 [I] xpc.watchdog: Callback Watchdog: checkin
+3735.300 [I] xpc.watchdog: Server Watchdog: checkin
+3750.309 [I] xpc.watchdog: Callback Watchdog: checkin
+3750.309 [I] xpc.watchdog: Server Watchdog: checkin
+3765.300 [I] xpc.watchdog: Callback Watchdog: checkin
+3765.300 [I] xpc.watchdog: Server Watchdog: checkin
+3780.324 [I] xpc.watchdog: Callback Watchdog: checkin
+3780.324 [I] xpc.watchdog: Server Watchdog: checkin
+3795.304 [I] xpc.watchdog: Callback Watchdog: checkin
+3795.304 [I] xpc.watchdog: Server Watchdog: checkin
+3810.312 [I] xpc.watchdog: Callback Watchdog: checkin
+3810.312 [I] xpc.watchdog: Server Watchdog: checkin
+3825.355 [I] xpc.watchdog: Callback Watchdog: checkin
+3825.355 [I] xpc.watchdog: Server Watchdog: checkin
+3840.370 [I] xpc.watchdog: Callback Watchdog: checkin
+3840.370 [I] xpc.watchdog: Server Watchdog: checkin
+3855.299 [I] xpc.watchdog: Callback Watchdog: checkin
+3855.299 [I] xpc.watchdog: Server Watchdog: checkin
+3870.299 [I] xpc.watchdog: Callback Watchdog: checkin
+3870.299 [I] xpc.watchdog: Server Watchdog: checkin
+3885.303 [I] xpc.watchdog: Callback Watchdog: checkin
+3885.303 [I] xpc.watchdog: Server Watchdog: checkin
+3900.348 [I] xpc.watchdog: Callback Watchdog: checkin
+3900.348 [I] xpc.watchdog: Server Watchdog: checkin
+3915.312 [I] xpc.watchdog: Callback Watchdog: checkin
+3915.312 [I] xpc.watchdog: Server Watchdog: checkin
+3930.300 [I] xpc.watchdog: Callback Watchdog: checkin
+3930.300 [I] xpc.watchdog: Server Watchdog: checkin
+3945.330 [I] xpc.watchdog: Callback Watchdog: checkin
+3945.330 [I] xpc.watchdog: Server Watchdog: checkin
+3960.301 [I] xpc.watchdog: Callback Watchdog: checkin
+3960.301 [I] xpc.watchdog: Server Watchdog: checkin
+3975.298 [I] xpc.watchdog: Callback Watchdog: checkin
+3975.298 [I] xpc.watchdog: Server Watchdog: checkin
+3990.331 [I] xpc.watchdog: Callback Watchdog: checkin
+3990.331 [I] xpc.watchdog: Server Watchdog: checkin
+4005.305 [I] xpc.watchdog: Callback Watchdog: checkin
+4005.305 [I] xpc.watchdog: Server Watchdog: checkin
+4020.355 [I] xpc.watchdog: Callback Watchdog: checkin
+4020.355 [I] xpc.watchdog: Server Watchdog: checkin
+4035.297 [I] xpc.watchdog
